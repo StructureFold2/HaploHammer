@@ -1,4 +1,4 @@
 # HaploHammer
 Haplotypes
 
-Under heave construction!
+Under heavy construction!
