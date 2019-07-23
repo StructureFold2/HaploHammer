@@ -100,9 +100,9 @@ def main():
     
     #Process files...
     for fyle in target_fyles:
-        data = read_fasta(args.single)
+        data = read_fasta(fyle)
         new_data = regressive_translation(data)
-        new_name = add_suffix(args.single,args.suffix)
+        new_name = add_suffix(fyle,args.suffix)
         write_fasta(new_data,new_name)
 
 if __name__ == '__main__':
