@@ -5,6 +5,7 @@ and the enclosed manual.pdf should serve as a reference in the interm.
 
 **Dependencies**
 + [Python 2.7.X](https://www.python.org/)
++ [BioPython](https://biopython.org/)
 + [vcftools](https://vcftools.github.io/index.html)
 
 HaploHammer is a suite of Python scripts designed to quickly apply a large number of <.vcf>
