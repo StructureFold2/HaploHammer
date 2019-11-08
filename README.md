@@ -24,3 +24,15 @@ halotype aware format.
 6. allele_extract.py
 7. annotation_parse.py
 
+**Input data**
+This tool matches variation from vcf files back to the reference genome they were generated
+against, thus you must have the same version of the reference genome that was used to generate the vcf
+files, i.e. what the variants were called from. There is no known limit on the number of vcfs that can be
+incorporated into a single haplotype matrix. It is possible to use an updated GFF3/GTF file as long as it
+still references the same build of the genome, thus giving more or updated gene models without
+perturbing the genomic coordinates. The pipeline was built around the IRRI 3000 genomes project and
+the 1001 Arabidopsis genomes project, where each re-sequenced line is both diploid and contained
+within it’s own vcf file; support for vcf files detailing the changes from multiple lines may be added in
+the future.
+
+
