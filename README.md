@@ -1,4 +1,4 @@
-#HaploHammer
+# HaploHammer
 
 Tools for generating and comparing whole haplotypes from re-sequenced data. This readme is incomplete as of right now
 and the enclosed manual.pdf should serve as a reference in the interm.
